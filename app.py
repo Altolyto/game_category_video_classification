@@ -7,7 +7,7 @@ import os
 from tensorflow import keras
 
 # loading the saved model
-loaded_model = load_model("model.h5")
+loaded_model = load_model("video_classifier_model.h5")
 TEMP_DIR = "tempdir/"
 # Specify the height and width to which each video frame will be resized in our dataset.
 IMG_SIZE = 224
